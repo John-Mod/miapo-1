@@ -1,2 +1,0 @@
-# miapo
-Repositary for MiAPO
