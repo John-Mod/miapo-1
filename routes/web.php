@@ -104,3 +104,7 @@ Route::patch('/aspirant', 'AspirantInfosController@update')->middleware('auth', 
 Route::get('/history', 'NewsController@history');
 Route::get('/history/edit', 'NewsController@history_edit')->middleware('auth', 'admin');
 Route::patch('/history', 'NewsController@history_update')->middleware('auth', 'admin');
+
+Route::get('/git', function(){
+    return view('git')
+});
